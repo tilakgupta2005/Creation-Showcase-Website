@@ -2,51 +2,13 @@
   margin: 0px;
   padding: 0px;
   font-style: none;
-  font-family: 'Times New Roman', 'Times', 'serif';
 }
 
-#navbar {
-  position: fixed;
-  height: 75px;
-  width: 100%;
-  background-color: rgba(122, 28, 172, 1);
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  font-size: 50px;
-  text-decoration: none;
-  display: flex;
-  justify-content: space-between;
-  box-shadow: 0px 0px 10px rgb(0, 0, 0);
-  z-index: 9999;
-}
 
-#logo {
-  margin-left: 15px;
-  margin-top: 12.5px;
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  display: inline-block;
-  background-image: url(https://yt3.ggpht.com/ZFnY8hKv5tsGwTe0KEMRERLnsY7h_Sdmjs5e83ZxIoZtqSN-k-Ymijw5LxXLm6YzYW0GUsgmYA=s108-c-k-c0x00ffffff-no-rj);
-  background-size: cover;
-  box-shadow: 0px 0px 5px rgb(0, 0, 0);
-}
-
-#icon {
-  text-shadow: 0px 0px 5px rgb(0, 0, 0);
-}
-
-#nottilak {
-  margin-top: 10px;
-  text-align: center;
-  background-color: rgba(122, 28, 172, 0.0);
-  display: inline-block;
-  text-shadow: 0px 0px 10px rgb(0, 0, 0);
-}
 
 #footer {
   text-align: center;
-  color: #EBD3F8;
+  color: #ebd3f8;
   background-color: #2E073F;
   font-size: 20px;
   width: 100%;
@@ -58,12 +20,6 @@ a {
   background-color: none;
   color: black;
   margin: 10px;
-}
-
-#hid {
-  height: 75px;
-  width: 100%;
-  background-color: #EBD3F8;
 }
 
 
@@ -118,6 +74,41 @@ img {
   width: 20%;
 }
 
+@media(min-width: 821px) {
+ 
+  .content {
+    height: 450px;
+    width: 30%;
+    display: inline-block;
+    justify-content: space-around;
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+
+  img {
+    margin: 0% auto 0px auto;
+  }
+
+  #subpages {
+    font-size: 20px;
+  }
+
+  .cimg {
+    width: 50%;
+    margin-left: 10%;
+  }
+
+  .content:hover {
+    transform: scale(1.01);
+  }
+
+  iframe {
+    width: 50%;
+    aspect-ratio: 4/3;
+  }
+
+}
+
 @media(max-width: 820px) {
   .content {
     height: fit-content;
@@ -140,39 +131,7 @@ img {
 
 }
 
-@media(min-width: 821px) {
-  .content {
-    height: 450px;
-    width: 30%;
-    display: inline-block;
-    justify-content: space-around;
-    flex-shrink: 0;
-    flex-grow: 0;
-  }
 
-  img {
-    margin: 0.% auto 0px auto;
-  }
-
-  #subpages {
-    font-size: 20px;
-  }
-
-  .cimg {
-    width: 50%;
-    margin-left: 10%;
-  }
-
-  .content:hover {
-    transform: scale(1.01);
-  }
-
-  iframe {
-    width: 50%;
-    aspect-ratio: 4/3;
-  }
-
-}
 
 #subpages {
   background-color: #EBD3F8;
