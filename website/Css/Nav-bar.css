@@ -5,10 +5,10 @@
   margin: 0px;
 }
 
-#hid{
- height: 75px;
- width: 100%;
- background-color: #EBD3F8;
+#hid {
+  height: 75px;
+  width: 100%;
+  background-color: #EBD3F8;
 }
 
 nav {
@@ -34,11 +34,11 @@ a {
   color: black;
 }
 
-.navop{
+.navop {
   color: #EBD3F8;
 }
 
-#sidemenu{
+#sidemenu {
   height: 100%;
   width: 250px;
   position: fixed;
@@ -50,11 +50,12 @@ a {
   visibility: hidden;
   font-family: "Lato", sans-serif;
 }
-.relative{
+
+.relative {
   position: relative;
 }
 
-#crossicon{
+#crossicon {
   font-size: 50px;
   margin: 40px 20px;
   cursor: pointer;
@@ -69,10 +70,10 @@ a {
     visibility: hidden;
   }
 
-  #sidemenu{
-   width: 0px;
-   height:0px;
-   visibility: hidden;
+  #sidemenu {
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
   }
 
   #search-button {
@@ -136,7 +137,7 @@ a {
     outline: none;
     border: none;
     border-radius: 20px 0px 0px 20px;
-    padding-left:10px;
+    padding-left: 10px;
   }
 
   #search-box form button {
@@ -158,23 +159,25 @@ a {
 
   #search-box {
     display: none;
-    
+
   }
 
   nav div ul {
     visibility: hidden;
   }
-.active{
-  display: block !important;
-}
+
+  .active {
+    display: block !important;
+  }
+
   #sidemenu.active {
     z-index: 9999;
     visibility: visible;
     left: 0;
     transition: left 0.3s ease-out, z-index 0s;
-}
+  }
 
-  #menuoption{
+  #menuoption {
     display: flex;
     align-items: center;
     justify-content: right;
@@ -187,12 +190,12 @@ a {
   #sidemenu ul {
     list-style-type: none;
   }
-  
+
   #sidemenu ul li {
     padding: 15px 5px;
     text-align: left;
   }
-  
+
   #sidemenu ul li a {
     color: #EBD3F8;
     display: block;
@@ -200,11 +203,11 @@ a {
     font-size: 25px;
   }
 
-  #sidemenu ul li a i{
+  #sidemenu ul li a i {
     margin: 0px 10px 0px 5px;
   }
 
-  #nottilak{
+  #nottilak {
     width: 80%;
     font-size: 20px;
     display: flex;
@@ -213,13 +216,13 @@ a {
     justify-content: center;
   }
 
-  #search-button{
+  #search-button {
     display: flex;
     align-items: center;
     margin-right: 3%;
   }
 
-  #search-box form input{
+  #search-box form input {
     position: absolute;
     width: 76vw;
     height: 50px;
@@ -232,7 +235,7 @@ a {
     margin-top: 80px;
   }
 
-  #search-box form button{
+  #search-box form button {
     position: absolute;
     width: 20vw;
     height: 52px;

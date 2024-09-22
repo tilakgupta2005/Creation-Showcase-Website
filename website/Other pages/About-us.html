@@ -2,62 +2,129 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Not Tilak</title>
-  <link href="/website/Css/style.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Not Tilak</title>
+    <link href="/website/Css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/website/Css/contpg.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="/website/Css/Nav-bar.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <header>
-    <nav >
+    <header>
+        <nav>
 
-        <div id="menuoption">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-
-        <div id="menubig">
-            <div id="logo">
-                <img
-                    src="https://yt3.ggpht.com/ZFnY8hKv5tsGwTe0KEMRERLnsY7h_Sdmjs5e83ZxIoZtqSN-k-Ymijw5LxXLm6YzYW0GUsgmYA=s108-c-k-c0x00ffffff-no-rj">
+            <div id="menuoption">
+                <i class="fa-solid fa-bars"></i>
             </div>
 
-            <div id="navop">
-                <ul>
-                    <li><a href="/index.html" class="navop">Home</a></li>
-                    <li><a href="/website/Other pages/About-us.html" class="navop">About Us</a></li>
-                    <li><a href="/website/Other pages/contactus.html" class="navop">Contact Us</a></li>
+            <div id="menubig">
+                <div id="logo">
+                    <img
+                        src="https://yt3.ggpht.com/ZFnY8hKv5tsGwTe0KEMRERLnsY7h_Sdmjs5e83ZxIoZtqSN-k-Ymijw5LxXLm6YzYW0GUsgmYA=s108-c-k-c0x00ffffff-no-rj">
+                </div>
+
+                <div id="navop">
+                    <ul>
+                        <li><a href="/index.html" class="navop">Home</a></li>
+                        <li><a href="/website/Other pages/About-us.html" class="navop">About Us</a></li>
+                        <li><a href="/website/Other pages/contactus.html" class="navop">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="nottilak">
+                <h1 style="color: #EBD3F8">Not Tilak</h1>
+            </div>
+            <div id="search-box">
+                <form> <input type="text" placeholder=" Search" id="search">
+                    <button type="submit">
+                        <i id="search" class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+            <div id="search-button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </nav>
+    </header>
+    <div id="sidemenu">
+        <i class="fa-solid fa-xmark fa-2xl" id="crossicon"></i>
+        <ul>
+            <li><a href="/index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="/website/Other pages/About-us.html"><i class="fa-solid fa-address-card"></i> About Us</a></li>
+            <li><a href="/website/Other pages/contactus.html"><i class="fa-regular fa-address-book"></i> Contact Us</a>
+            </li>
+        </ul>
+    </div>
+    <script src="/website/js/navbar.js"></script>
+
+    <main id="subpages">
+        <div id="hid"></div>
+        <section class="leftad"></section>
+        <section class="centercont">
+            <div id="about">
+                <br>
+                <h1 class="about" style="font-size: 50px;">About Us</h1>
+                <br>
+                <p class="about">ModBay.Org is a web portal for lovers and fans of the world-known game of Minecraft.
+                </p>
+                <br>
+                <p class="about">Our mission is to unite the fans of this amazing game from all over the world on a
+                    single platform and provide them with various features and opportunities</p>
+                <br>
+                <p class="about">The ModBay was launched on August 15th, 2022. Currently, we’re just starting to perform
+                    our activities. Although we haven’t implemented everything that we wanted yet, we’re trying to
+                    provide our users with all sorts of useful features.</p>
+                <br>
+                <p class="about">If you have any great idea (feature) that you would like to see on our platform, please
+                    inform us about it. We’ll add it to our TODO list and definitely consider its implementation.</p>
+                <br>
+                <h1 class="about" style="font-size: 30px;">We are on social networks</h1>
+                <p class="about">For incredible reviews of various Minecraft Addons and support the ModBay in its
+                    recognition.</p>
+                <ul class="about">
+                    <li class="about" style="margin-left: 50px; "><a style=" color: blue;"
+                            href="https://www.youtube.com/channel/UCd0K3J64pA78s3WN53q74RA">Youtube</a></li>
+                    <li style="margin-left: 50px; "><a style=" color: blue;"
+                            href="https://discord.com/invite/nvQvAyqsZw">Discord</a></li>
                 </ul>
+
+                <br>
+                <h1 class="about" style="font-size: 30px;">Special thanks</h1>
+                <p class="about">We express our gratitude to each of our users. All of you are breathtaking!</p>
+                <p class="about">Special thanks from ModBay</p>
+                <br><br><br>
             </div>
+        </section>
+        <section class="rightad"></section>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <br>
+            Made with &#10084 by Tilak
+            <br>
+            <br>
+            <a target="_blank" href="https://www.linkedin.com/in/tilakgupta2005"><i id="icon"
+                    class="fa-brands fa-linkedin"
+                    style="background-color: #2E073F; color:#EBD3F8; padding: 5px"></i></a>
+            <a target="_blank" href="https://github.com/tilakgupta2005"><i id="icon" class="fa-brands fa-github"
+                    style="background-color: #2E073F; color:#EBD3F8; padding: 5px"></i></a>
+            <a target="_blank" href="https://discord.com/invite/nvQvAyqsZw"><i id="icon" class="fa-brands fa-discord"
+                    style="background-color: #2E073F; color:#EBD3F8; padding: 5px"></i></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCd0K3J64pA78s3WN53q74RA"><i id="icon"
+                    class="fa-brands fa-youtube" style="background-color: #2E073F; color:#EBD3F8; padding: 5px"></i></a>
+            <a target="_blank" href="https://www.instagram.com/tilakgupta2005"><i id="icon"
+                    class="fa-brands fa-instagram"
+                    style="background-color: #2E073F; color:#EBD3F8; padding: 5px"></i></a>
+            <br>
+            <br> <br> <br>
         </div>
-        <div id="nottilak">
-            <h1 style="color: #EBD3F8">Not Tilak</h1>
-        </div>
-        <div id="search-box">
-            <form> <input type="text" placeholder=" Search" id="search">
-                <button type="submit">
-                    <i id="search" class="fa-solid fa-magnifying-glass"></i>
-                </button>
-            </form>
-        </div>
-        <div id="search-button">
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-    </nav>
-</header>
-<div id="sidemenu">
-    <i class="fa-solid fa-xmark fa-2xl" id="crossicon"></i>
-    <ul>
-      <li><a href="/index.html" class="navop">Home</a></li>
-      <li><a href="/website/Other pages/About-us.html" class="navop">About Us</a></li>
-      <li><a href="/website/Other pages/contactus.html" class="navop">Contact Us</a></li>
-    </ul>
-</div>
-<script src="website/js/navbar.js"></script>
+    </footer>
 
 </body>
+
 </html>

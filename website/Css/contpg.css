@@ -1,0 +1,25 @@
+@media(min-width: 821px) {
+    .leftad {
+        background-color: green;
+        width: 20%;
+        height: 30%;
+        display: inline-block;
+    }
+
+    .centercont {
+        background-color: #EBD3F8;
+        width: 60%;
+        height: 30%;
+        left: 25%;
+        display: inline-block;
+    }
+
+    .rightad {
+        background-color: green;
+        width: 20%;
+        height: 30%;
+        left: 75%;
+        display: inline-block;
+    }
+
+}

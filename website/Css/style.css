@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
@@ -12,7 +14,11 @@
   background-color: #2E073F;
   font-size: 20px;
   width: 100%;
+  position: sticky 100%;
+
+  font-family: "Lato", sans-serif;
   box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  z-index: 9999;
 }
 
 a {
@@ -70,12 +76,14 @@ img {
   margin-bottom: 4%;
 }
 
-#download{
+#download {
   width: 20%;
 }
 
+
+/* for big screen */
 @media(min-width: 821px) {
- 
+
   .content {
     height: 450px;
     width: 30%;
@@ -83,6 +91,19 @@ img {
     justify-content: space-around;
     flex-shrink: 0;
     flex-grow: 0;
+  }
+
+  #about {
+    width: 90%;
+    margin: 5%;
+    background-color: #EBD3F8;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 10px;
+  }
+
+  .about {
+    margin-left: 30px;
+    font-size: 20px;
   }
 
   img {
@@ -115,8 +136,8 @@ img {
     width: auto;
     flex-basis: 100%;
   }
-  
-  #download{
+
+  #download {
     width: 40%;
   }
 
@@ -130,7 +151,6 @@ img {
   }
 
 }
-
 
 
 #subpages {
