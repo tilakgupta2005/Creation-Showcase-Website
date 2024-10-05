@@ -20,6 +20,10 @@
         height: 30%;
         left: 75%;
         display: inline-block;
+
+        .cont{
+            background-color: white;
+        }
     }
 
 }
