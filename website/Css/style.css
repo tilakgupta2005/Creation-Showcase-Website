@@ -97,7 +97,7 @@ details {
 @media(min-width: 821px) {
 
   .content {
-    height: 450px;
+    height: 500px;
     width: 30%;
     display: inline-block;
     justify-content: space-around;
@@ -116,6 +116,10 @@ details {
   .about {
     margin-left: 30px;
     font-size: 20px;
+  }
+
+  h1 .about{
+    font-size: 40px;
   }
 
   img {
