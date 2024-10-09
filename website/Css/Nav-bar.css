@@ -36,6 +36,8 @@ a {
 
 .navop {
   color: #EBD3F8;
+  font-weight: 501;
+  margin: 5px;
 }
 
 #sidemenu {
@@ -49,6 +51,7 @@ a {
   z-index: -9999;
   visibility: hidden;
   font-family: "Lato", sans-serif;
+  font-weight: 700;
 }
 
 .relative {
@@ -138,6 +141,7 @@ a {
     border: none;
     border-radius: 20px 0px 0px 20px;
     padding-left: 10px;
+    font-size: 14px;
   }
 
   #search-box form button {
