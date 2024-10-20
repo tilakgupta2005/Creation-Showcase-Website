@@ -22,6 +22,27 @@
   z-index: 9999;
 }
 
+html{
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #EBD3F8;
+}
+
+body{
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  box-sizing: inherit;
+  padding-bottom: 177px;
+}
+
+footer{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
 a {
   text-decoration: none;
   background-color: none;
@@ -211,4 +232,19 @@ iframe {
   background-color: #EBD3F8;
   padding: 20px;
   text-align: left;
+}
+ /* between mobile and laptop */
+@media(max-width: 1170px){
+ .content{
+  width: 45%;
+ }
+
+ .navop{
+  font-size: 16px;
+  margin: -2px;
+  display: flex;
+ }
+  nav div ul{
+    flex-shrink: 0;
+  }
 }
