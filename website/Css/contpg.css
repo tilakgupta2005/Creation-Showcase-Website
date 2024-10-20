@@ -1,6 +1,6 @@
 @media(min-width: 821px) {
     .leftad {
-        background-color: green;
+        background-color: rgba(0, 128, 0, 0);
         width: 20%;
         height: 30%;
         display: inline-block;
@@ -15,7 +15,7 @@
     }
 
     .rightad {
-        background-color: green;
+        background-color: rgba(0, 128, 0, 0);
         width: 20%;
         height: 30%;
         left: 75%;
