@@ -28,7 +28,28 @@
 #cont {
     background-color: white;
     width: 100%;
-
     box-shadow: 0px 0px 3px black;
     border-radius: 10px;
+}
+
+.downloadbutton {
+    align-items: center;
+    background-color: rgba(122, 28, 172, 1);
+    padding: 1px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #EBD3F8;
+    margin: 0 40% 0 41%;
+}
+
+.sversion {
+    background-color: rgba(122, 28, 172, 1);
+    padding: 1px;
+    border-radius: 10px;
+    width: fit-content;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #EBD3F8;
 }
